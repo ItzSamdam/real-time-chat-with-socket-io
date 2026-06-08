@@ -2,7 +2,7 @@
 import type { ICall } from "@src/types/call";
 import { Ref, ref } from "vue";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import { PlusCircleIcon } from "@heroicons/vue/24/outline";
 import CallInfoModal from "@src/components/modals/call-info-modal/CallInfoModal.vue";

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
 import Navigation from "@src/components/navigation/Navigation.vue";

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { INotification } from "@src/types/notification";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import NoNotifications from "@src/components/states/empty-states/NoNotifications.vue";
 import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue";

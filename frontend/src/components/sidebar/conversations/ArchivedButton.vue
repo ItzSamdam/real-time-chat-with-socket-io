@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ArchiveBoxIcon, XMarkIcon } from "@heroicons/vue/24/outline";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 const props = defineProps<{
   open: boolean;

@@ -3,7 +3,7 @@ import type { IMessage } from "@src/types/messaging";
 import type { IConversation } from "@src/types/messaging";
 import { inject } from "vue";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { getConversationIndex } from "@src/utils/utils";
 
 import {

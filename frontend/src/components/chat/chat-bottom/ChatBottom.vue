@@ -2,7 +2,7 @@
 import type { Ref } from "vue";
 import type { IConversation } from "@src/types/messaging";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { ref, inject, onMounted } from "vue";
 import { getConversationIndex } from "@src/utils/utils";
 

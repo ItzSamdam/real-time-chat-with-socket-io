@@ -4,7 +4,7 @@ import type { Ref } from "vue";
 
 import { inject, onMounted, ref } from "vue";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import Message from "@src/components/chat/chat-middle/message/Message.vue";
 import TimelineDivider from "@src/components/chat/chat-middle/TimelineDivider.vue";

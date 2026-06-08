@@ -3,7 +3,7 @@ import type { Ref } from "vue";
 import type { IContact } from "@src/types/contact";
 
 import { ref } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue";
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";

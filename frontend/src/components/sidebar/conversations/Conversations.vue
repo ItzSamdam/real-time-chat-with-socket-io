@@ -3,7 +3,7 @@ import type { IConversation } from "@src/types/messaging";
 import type { Ref } from "vue";
 
 import { onMounted, ref, watch } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { getActiveConversationId, getName } from "@src/utils/utils";
 
 import { PencilSquareIcon } from "@heroicons/vue/24/outline";

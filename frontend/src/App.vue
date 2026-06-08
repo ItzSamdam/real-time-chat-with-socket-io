@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
-import useStore from "@src/lib/store/store";
-import { fetchData } from "@src/lib/store/defaults";
-
+import useStore from "@src/store/store";
+import { fetchData } from "@src/store/defaults";
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
 
 const store = useStore();

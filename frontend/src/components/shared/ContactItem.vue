@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { IContact } from "@src/types/contact";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { getFullName } from "@src/utils/utils";
 
 defineEmits(["contactSelected"]);

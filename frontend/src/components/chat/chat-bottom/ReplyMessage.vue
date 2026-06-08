@@ -4,7 +4,7 @@ import type { IConversation } from "@src/types/messaging";
 import { inject } from "vue";
 
 import { getConversationIndex } from "@src/utils/utils";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import { XCircleIcon } from "@heroicons/vue/24/outline";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";

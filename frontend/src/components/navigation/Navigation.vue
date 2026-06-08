@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import {
   BellIcon,

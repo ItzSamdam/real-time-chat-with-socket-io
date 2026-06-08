@@ -3,7 +3,7 @@ import type { Ref } from "vue";
 import type { IEmoji } from "@src/types/messaging";
 
 import { watch, ref, onMounted } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { unicodeToEmoji } from "@src/utils/utils";
 
 import emojis from "@src/components/ui/inputs/emoji-picker/emojis.json";

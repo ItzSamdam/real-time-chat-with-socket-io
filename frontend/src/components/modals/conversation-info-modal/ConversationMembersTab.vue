@@ -3,7 +3,7 @@ import type { IConversation } from "@src/types/messaging";
 import type { Ref } from "vue";
 
 import { ref } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import { EllipsisVerticalIcon } from "@heroicons/vue/24/outline";
 import { ArrowUturnLeftIcon } from "@heroicons/vue/24/solid";

@@ -7,7 +7,7 @@ import type {
 import type { Ref } from "vue";
 
 import { computed, ref } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import {
   getActiveConversationId,
   getAvatar,

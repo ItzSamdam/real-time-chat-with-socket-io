@@ -2,7 +2,7 @@
 import type { Ref } from "vue";
 import type { IMessage } from "@src/types/messaging";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { computed, provide, ref } from "vue";
 import { getActiveConversationId } from "@src/utils/utils";
 

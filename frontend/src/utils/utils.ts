@@ -2,7 +2,7 @@ import type { IConversation, IMessage, IRecording } from "@src/types/messaging";
 import type { ICall } from "@src/types/call";
 import type { IContact } from "@src/types/contact";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { useRoute } from "vue-router";
 
 /**

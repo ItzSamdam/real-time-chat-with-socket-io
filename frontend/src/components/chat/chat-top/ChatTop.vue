@@ -2,7 +2,7 @@
 import type { IConversation } from "@src/types/messaging";
 
 import { inject, ref } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import ConversationInfoModal from "@src/components/modals/conversation-info-modal/ConversationInfoModal.vue";
 import SearchModal from "@src/components/modals/search-modal/SearchModal.vue";

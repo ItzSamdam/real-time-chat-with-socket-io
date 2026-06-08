@@ -3,7 +3,7 @@ import type { IContact } from "@src/types/contact";
 import type { Ref } from "vue";
 
 import { ref } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import Button from "@src/components/ui/inputs/Button.vue";
 import Checkbox from "@src/components/ui/inputs/Checkbox.vue";

@@ -4,7 +4,7 @@ import type { IContactGroup } from "@src/types/contact";
 import type { Ref } from "vue";
 
 import { ref, watch } from "vue";
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import AddContactModal from "@src/components/modals/AddContactModal.vue";
 import NoContacts from "@src/components/states/empty-states/NoContacts.vue";

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import {
   ArrowLeftOnRectangleIcon,
   ArrowPathIcon,
   InformationCircleIcon,
 } from "@heroicons/vue/24/outline";
-import Dropdown from "@src/components/ui/navigation/dropdown/Dropdown.vue";
+import Dropdown from "@src/components/ui/navigation/Dropdown/Dropdown.vue";
 // import DropdownLink from "@src/components/ui/navigation/dropdown/DropdownLink.vue";
 import { RouterLink } from "vue-router";
 

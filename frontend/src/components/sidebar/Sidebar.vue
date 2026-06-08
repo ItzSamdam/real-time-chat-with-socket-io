@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
 import Calls from "@src/components/sidebar/calls/Calls.vue";

@@ -3,8 +3,8 @@ import type { IConversation } from "@src/types/messaging";
 
 import { inject, ref } from "vue";
 import router from "@src/router";
-import { activeCall } from "@src/lib/store/defaults";
-import useStore from "@src/lib/store/store";
+import { activeCall } from "@src/store/defaults";
+import useStore from "@src/store/store";
 import { getAvatar, getName } from "@src/utils/utils";
 
 import {

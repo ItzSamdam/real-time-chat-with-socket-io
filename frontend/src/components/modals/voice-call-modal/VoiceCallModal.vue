@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 
-import useStore from "@src/lib/store/store";
+import useStore from "@src/store/store";
 import { getOtherMembers } from "@src/utils/utils";
 
 import IncomingTab from "@src/components/modals/voice-call-modal/IncomingTab.vue";
