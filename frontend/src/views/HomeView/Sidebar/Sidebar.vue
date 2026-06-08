@@ -4,11 +4,11 @@ import { computed } from "vue";
 import useStore from "@src/store/store";
 
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
-import Calls from "@src/components/views/HomeView/Sidebar/Calls/Calls.vue";
-import Contacts from "@src/components/views/HomeView/Sidebar/Contacts/Contacts.vue";
-import Conversations from "@src/components/views/HomeView/Sidebar/Conversations/Conversations.vue";
-import Notifications from "@src/components/views/HomeView/Sidebar/Notifications/Notifications.vue";
-import Settings from "@src/components/views/HomeView/Sidebar/Settings/Settings.vue";
+import Calls from "@src/views/HomeView/Sidebar/Calls/Calls.vue";
+import Contacts from "@src/views/HomeView/Sidebar/Contacts/Contacts.vue";
+import Conversations from "@src/views/HomeView/Sidebar/Conversations/Conversations.vue";
+import Notifications from "@src/views/HomeView/Sidebar/Notifications/Notifications.vue";
+import Settings from "@src/views/HomeView/Sidebar/Settings/Settings.vue";
 
 const store = useStore();
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ResetForm from "@src/components/views/PasswordResetView/PasswordResetForm.vue";
+import ResetForm from "@src/views/PasswordResetView/PasswordResetForm.vue";
 </script>
 
 <template>

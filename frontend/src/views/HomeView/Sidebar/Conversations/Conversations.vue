@@ -14,9 +14,9 @@ import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
-import ArchivedButton from "@src/components/views/HomeView/Sidebar/Conversations/ArchivedButton.vue";
-import ConversationsList from "@src/components/views/HomeView/Sidebar/Conversations/ConversationsList.vue";
-import SidebarHeader from "@src/components/views/HomeView/Sidebar/SidebarHeader.vue";
+import ArchivedButton from "@src/views/HomeView/Sidebar/Conversations/ArchivedButton.vue";
+import ConversationsList from "@src/views/HomeView/Sidebar/Conversations/ConversationsList.vue";
+import SidebarHeader from "@src/views/HomeView/Sidebar/SidebarHeader.vue";
 
 const store = useStore();
 

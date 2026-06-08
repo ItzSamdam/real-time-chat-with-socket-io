@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ICall } from "@src/utils/types";
-import Call from "@src/components/views/HomeView/Sidebar/Calls/Call.vue";
+import Call from "@src/views/HomeView/Sidebar/Calls/Call.vue";
 
 const props = defineProps<{
   calls: ICall[];

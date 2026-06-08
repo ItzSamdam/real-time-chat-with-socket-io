@@ -18,7 +18,7 @@ import AttachmentsModal from "@src/components/shared/modals/AttachmentsModal/Att
 import Button from "@src/components/ui/inputs/Button.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 import ScaleTransition from "@src/components/ui/transitions/ScaleTransition.vue";
-import ReplyMessage from "@src/components/views/HomeView/Chat/ChatBottom/ReplyMessage.vue";
+import ReplyMessage from "@src/views/HomeView/Chat/ChatBottom/ReplyMessage.vue";
 import EmojiPicker from "@src/components/ui/inputs/EmojiPicker/EmojiPicker.vue";
 import Textarea from "@src/components/ui/inputs/Textarea.vue";
 

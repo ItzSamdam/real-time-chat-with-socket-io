@@ -1,42 +1,56 @@
-# vue-project
+<image src="src/assets/images/thumbnail.png" style="border-radius:16px;margin-bottom:5px;"/>
 
-This template should help get you started developing with Vue 3 in Vite.
+## Features ⚡
 
-## Recommended IDE Setup
+This template is packed with a lot of features including:
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [x] Dark and light modes.
+- [x] Messages with attachments.
+- [x] Replies and pins.
+- [x] Conversations and archives.
+- [x] Settings.
+- [x] Notifications.
+- [x] Voice calls.
+- [x] Sign in and sign up pages.
+- [x] Password reset page.
+- [x] and much more.
 
-## Recommended Browser Setup
+<br/>
+<br/>
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Setup 🔧
 
-## Type Support for `.vue` Imports in TS
+Here is how to setup this template:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+<p>1. Clone the repository.</p>
 
-## Customize configuration
+```bash
+git clone https://github.com/demon-bixia/Avian-Template.git
+```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+<p>2. Install dependencies.</p>
 
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+<p>3. Run the development server.</p>
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+<br/>
+<br/>
 
-```sh
-npm run build
-```
+## Resources 📙
+
+<p>The resources used to create this project are:</p>
+
+- <a href="https://www.figma.com/design/afxhPVpXABmGzKPk146vlz/Avian-Messaging-Old?node-id=0-1&t=zUVzLyhGRmDk1KCn-0">Figma file</a>
+- <a href="https://pinia.vuejs.org/">Pinia</a>
+- <a href="https://heroicons.com/">Heroicons</a>
+- <a href="https://github.com/dcastil/tailwind-merge">Tailwind merge</a>
+- <a href="https://vueuse.org/">vueuse</a>
+- <a href="https://wavesurfer-js.org/">Wavesurfer-js</a>
+- <a href="https://github.com/Akryum/floating-vue">floating-vue</a>

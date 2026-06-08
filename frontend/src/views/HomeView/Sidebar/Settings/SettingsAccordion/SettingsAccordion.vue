@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-import AccountSettings from "@src/components/views/HomeView/Sidebar/Settings/SettingsAccordion/AccountSettings.vue";
-import PrivacySettings from "@src/components/views/HomeView/Sidebar/Settings/SettingsAccordion/PrivacySettings.vue";
-import AppearanceSettings from "@src/components/views/HomeView/Sidebar/Settings/SettingsAccordion/AppearanceSettings.vue";
-import NotificationsSettings from "@src/components/views/HomeView/Sidebar/Settings/SettingsAccordion/NotificationsSettings.vue";
+import AccountSettings from "@src/views/HomeView/Sidebar/Settings/SettingsAccordion/AccountSettings.vue";
+import PrivacySettings from "@src/views/HomeView/Sidebar/Settings/SettingsAccordion/PrivacySettings.vue";
+import AppearanceSettings from "@src/views/HomeView/Sidebar/Settings/SettingsAccordion/AppearanceSettings.vue";
+import NotificationsSettings from "@src/views/HomeView/Sidebar/Settings/SettingsAccordion/NotificationsSettings.vue";
 
 // Types
 enum accordionItems {

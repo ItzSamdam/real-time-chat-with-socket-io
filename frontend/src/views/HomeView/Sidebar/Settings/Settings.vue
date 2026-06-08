@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import SidebarHeader from "@src/components/views/HomeView/Sidebar/SidebarHeader.vue";
-import SettingsAccordion from "@src/components/views/HomeView/Sidebar/Settings/SettingsAccordion/SettingsAccordion.vue";
+import SidebarHeader from "@src/views/HomeView/Sidebar/SidebarHeader.vue";
+import SettingsAccordion from "@src/views/HomeView/Sidebar/Settings/SettingsAccordion/SettingsAccordion.vue";
 </script>
 
 <template>

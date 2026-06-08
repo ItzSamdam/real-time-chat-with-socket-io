@@ -12,12 +12,12 @@ import { inject, ref } from "vue";
 
 import { getFullName, getMessageById } from "@src/utils/utils";
 
-import Attachments from "@src/components/views/HomeView/Chat/ChatMiddle/Message/Attachments.vue";
-import LinkPreview from "@src/components/views/HomeView/Chat/ChatMiddle/Message/LinkPreview.vue";
-import MessageContextMenu from "@src/components/views/HomeView/Chat/ChatMiddle/Message/MessageContextMenu.vue";
-import Receipt from "@src/components/views/HomeView/Chat/ChatMiddle/Message/Receipt.vue";
-import Recording from "@src/components/views/HomeView/Chat/ChatMiddle/Message/Recording.vue";
-import MessagePreview from "@src/components/views/HomeView/Chat/MessagePreview.vue";
+import Attachments from "@src/views/HomeView/Chat/ChatMiddle/Message/Attachments.vue";
+import LinkPreview from "@src/views/HomeView/Chat/ChatMiddle/Message/LinkPreview.vue";
+import MessageContextMenu from "@src/views/HomeView/Chat/ChatMiddle/Message/MessageContextMenu.vue";
+import Receipt from "@src/views/HomeView/Chat/ChatMiddle/Message/Receipt.vue";
+import Recording from "@src/views/HomeView/Chat/ChatMiddle/Message/Recording.vue";
+import MessagePreview from "@src/views/HomeView/Chat/MessagePreview.vue";
 
 const props = defineProps<{
   message: IMessage;

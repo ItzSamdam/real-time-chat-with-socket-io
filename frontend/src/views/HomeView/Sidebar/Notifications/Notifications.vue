@@ -4,8 +4,8 @@ import useStore from "@src/store/store";
 
 import NoNotifications from "@src/components/states/empty-states/NoNotifications.vue";
 import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue";
-import Notification from "@src/components/views/HomeView/Sidebar/Notifications/Notification.vue";
-import SidebarHeader from "@src/components/views/HomeView/Sidebar/SidebarHeader.vue";
+import Notification from "@src/views/HomeView/Sidebar/Notifications/Notification.vue";
+import SidebarHeader from "@src/views/HomeView/Sidebar/SidebarHeader.vue";
 
 const store = useStore();
 </script>

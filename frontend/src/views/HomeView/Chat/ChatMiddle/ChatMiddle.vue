@@ -6,8 +6,8 @@ import { inject, onMounted, ref } from "vue";
 
 import useStore from "@src/store/store";
 
-import Message from "@src/components/views/HomeView/Chat/ChatMiddle/Message/Message.vue";
-import TimelineDivider from "@src/components/views/HomeView/Chat/ChatMiddle/TimelineDivider.vue";
+import Message from "@src/views/HomeView/Chat/ChatMiddle/Message/Message.vue";
+import TimelineDivider from "@src/views/HomeView/Chat/ChatMiddle/TimelineDivider.vue";
 
 const props = defineProps<{
   handleSelectMessage: (messageId: number) => void;

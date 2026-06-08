@@ -9,7 +9,7 @@ import { getConversationIndex } from "@src/utils/utils";
 import { EyeSlashIcon, XCircleIcon } from "@heroicons/vue/24/outline";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 import SlideTransition from "@src/components/ui/transitions/SlideTransition.vue";
-import MessagePreview from "@src/components/views/HomeView/Chat/MessagePreview.vue";
+import MessagePreview from "@src/views/HomeView/Chat/MessagePreview.vue";
 
 const store = useStore();
 

@@ -8,7 +8,7 @@ import useStore from "@src/store/store";
 import ConversationInfoModal from "@src/components/shared/modals/ConversationInfoModal/ConversationInfoModal.vue";
 import SearchModal from "@src/components/shared/modals/SearchModal/SearchModal.vue";
 import VoiceCallModal from "@src/components/shared/modals/VoiceCallModal/VoiceCallModal.vue";
-import PinnedMessage from "@src/components/views/HomeView/Chat/ChatTop/PinnedMessage.vue";
+import PinnedMessage from "@src/views/HomeView/Chat/ChatTop/PinnedMessage.vue";
 import ConversationInfoSection from "./ConversationInfoSection.vue";
 import SelectSection from "./SelectSection.vue";
 

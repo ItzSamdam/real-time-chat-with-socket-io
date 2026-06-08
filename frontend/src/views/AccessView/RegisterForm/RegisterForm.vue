@@ -2,8 +2,8 @@
 import { computed, ref } from "vue";
 
 import SlideTransition from "@src/components/ui/transitions/SlideTransition.vue";
-import PasswordSection from "@src/components/views/AccessView/RegisterForm/PasswordSection.vue";
-import PersonalSection from "@src/components/views/AccessView/RegisterForm/PersonalSection.vue";
+import PasswordSection from "@src/views/AccessView/RegisterForm/PasswordSection.vue";
+import PersonalSection from "@src/views/AccessView/RegisterForm/PersonalSection.vue";
 import { RouterLink } from "vue-router";
 
 defineEmits(["activeSectionChange"]);

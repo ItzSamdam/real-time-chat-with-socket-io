@@ -11,8 +11,8 @@ import NoContacts from "@src/components/states/empty-states/NoContacts.vue";
 import MultipleLines from "@src/components/states/loading-states/MultipleLines.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";
-import SortedContacts from "@src/components/views/HomeView/Sidebar/Contacts/SortedContacts.vue";
-import SidebarHeader from "@src/components/views/HomeView/Sidebar/SidebarHeader.vue";
+import SortedContacts from "@src/views/HomeView/Sidebar/Contacts/SortedContacts.vue";
+import SidebarHeader from "@src/views/HomeView/Sidebar/SidebarHeader.vue";
 
 const store = useStore();
 

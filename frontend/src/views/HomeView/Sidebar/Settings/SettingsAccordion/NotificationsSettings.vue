@@ -3,7 +3,7 @@ import useStore from "@src/store/store";
 
 import AccordionButton from "@src/components/ui/data-display/AccordionButton.vue";
 import Collapse from "@src/components/ui/utils/Collapse.vue";
-import SettingsSwitch from "@src/components/views/HomeView/Sidebar/Settings/SettingsAccordion/SettingsSwitch.vue";
+import SettingsSwitch from "@src/views/HomeView/Sidebar/Settings/SettingsAccordion/SettingsSwitch.vue";
 
 const props = defineProps<{
   collapsed: boolean;

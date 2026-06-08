@@ -11,9 +11,9 @@ import NoCalls from "@src/components/states/empty-states/NoCalls.vue";
 import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 import ExpandTransition from "@src/components/ui/transitions/ExpandTransition.vue";
-import Call from "@src/components/views/HomeView/Sidebar/Calls/Call.vue";
-import CallList from "@src/components/views/HomeView/Sidebar/Calls/CallList.vue";
-import SidebarHeader from "@src/components/views/HomeView/Sidebar/SidebarHeader.vue";
+import Call from "@src/views/HomeView/Sidebar/Calls/Call.vue";
+import CallList from "@src/views/HomeView/Sidebar/Calls/CallList.vue";
+import SidebarHeader from "@src/views/HomeView/Sidebar/SidebarHeader.vue";
 
 const store = useStore();
 

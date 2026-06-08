@@ -2,8 +2,8 @@
 import useStore from "@src/store/store";
 
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
-import Navigation from "@src/components/views/HomeView/Navigation/Navigation.vue";
-import Sidebar from "@src/components/views/HomeView/Sidebar/Sidebar.vue";
+import Navigation from "@src/views/HomeView/Navigation/Navigation.vue";
+import Sidebar from "@src/views/HomeView/Sidebar/Sidebar.vue";
 import { getActiveConversationId } from "@src/utils/utils";
 
 const store = useStore();

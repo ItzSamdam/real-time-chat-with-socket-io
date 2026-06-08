@@ -12,9 +12,9 @@ import {
   SunIcon,
   UserIcon,
 } from "@heroicons/vue/24/solid";
-import AccountDropdown from "@src/components/views/HomeView/Navigation/AccountDropdown.vue";
-import Logo from "@src/components/views/HomeView/Navigation/Logo.vue";
-import NavLink from "@src/components/views/HomeView/Navigation/NavLink.vue";
+import AccountDropdown from "@src/views/HomeView/Navigation/AccountDropdown.vue";
+import Logo from "@src/views/HomeView/Navigation/Logo.vue";
+import NavLink from "@src/views/HomeView/Navigation/NavLink.vue";
 
 const store = useStore();
 
