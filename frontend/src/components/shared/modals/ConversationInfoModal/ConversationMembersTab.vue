@@ -8,7 +8,7 @@ import useStore from "@src/store/store";
 
 import { EllipsisVerticalIcon } from "@heroicons/vue/24/outline";
 import { ArrowUturnLeftIcon } from "@heroicons/vue/24/solid";
-import ContactItem from "@src/components/shared/blocks/ContactItem.vue";
+import ContactItem from "@src/components/shared/main/ContactItem.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";
 import Dropdown from "@src/components/ui/navigation/Dropdown/Dropdown.vue";
