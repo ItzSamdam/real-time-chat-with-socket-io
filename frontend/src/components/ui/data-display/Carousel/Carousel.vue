@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Ref } from "vue";
-import type { IAttachment, IConversation } from "@src/utils/types";
+import type { IAttachment, IConversation } from "@src/types/messaging";
 
 import { computed, inject, onMounted, onUnmounted, ref, watch } from "vue";
 
@@ -8,7 +8,7 @@ import { hasAttachments } from "@src/utils/utils";
 import { useFocusTrap } from "@vueuse/integrations/useFocusTrap";
 import VideoPlayer from "@src/components/ui/data-display/VideoPlayer.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
-import Toolbar from "@src/components/ui/data-display/Carousel/Toolbar.vue";
+import Toolbar from "@src/components/ui/data-display/carousel/Toolbar.vue";
 import ScaleTransition from "@src/components/ui/transitions/ScaleTransition.vue";
 import FadeTransition from "@src/components/ui/transitions/FadeTransition.vue";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/24/solid";
@@ -222,50 +222,90 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="relative z-10" aria-label="media carousel" role="dialog" aria-modal="true">
+  <div
+    class="relative z-10"
+    aria-label="media carousel"
+    role="dialog"
+    aria-modal="true"
+  >
     <!--overlay-->
     <FadeTransition>
-      <div v-show="props.open" class="fixed inset-0 bg-black/60 transition-opacity"></div>
+      <div
+        v-show="props.open"
+        class="fixed inset-0 bg-black/60 transition-opacity"
+      ></div>
     </FadeTransition>
 
     <!--content-->
     <ScaleTransition>
       <div v-show="props.open" class="fixed inset-0 z-10">
-        <div v-if="props.startingId" ref="carousel" class="h-full flex flex-col">
+        <div
+          v-if="props.startingId"
+          ref="carousel"
+          class="h-full flex flex-col"
+        >
           <!--toolbar-->
-          <Toolbar class="absolute right-0 z-30 mr-5 mt-5" :is-image="Boolean(selectedAttachment.type === 'image')"
-            :handle-close-carousel="handleCloseCarousel" :handle-increase-zoom="handleIncreaseZoom"
-            :handle-decrease-zoom="handleDecreaseZoom" />
+          <Toolbar
+            class="absolute right-0 z-30 mr-5 mt-5"
+            :is-image="Boolean(selectedAttachment.type === 'image')"
+            :handle-close-carousel="handleCloseCarousel"
+            :handle-increase-zoom="handleIncreaseZoom"
+            :handle-decrease-zoom="handleDecreaseZoom"
+          />
 
-          <div class="relative w-full h-full flex items-center justify-center overflow-hidden">
+          <div
+            class="relative w-full h-full flex items-center justify-center overflow-hidden"
+          >
             <!--Left controls-->
-            <IconButton title="previous" aria-label="previous item" @click="handleMoveToPreviousItem"
+            <IconButton
+              title="previous"
+              aria-label="previous item"
+              @click="handleMoveToPreviousItem"
               :class="{ hidden: !isThereAPrevious() }"
-              class="ic-btn-contained-glass absolute top-[50%] z-30 left-0 flex items-center justify-center mr-5 ml-5 p-4">
+              class="ic-btn-contained-glass absolute top-[50%] z-30 left-0 flex items-center justify-center mr-5 ml-5 p-4"
+            >
               <ChevronLeftIcon class="w-6 h-6" />
             </IconButton>
 
             <!--Image-->
             <img
               class="absolute w-auto md:max-w-175 xs:max-w-85 cursor-grab transition-[transform,opacity] duration-200"
-              :class="{ 'opacity-0': imageInvisibility }" :style="{
+              :class="{ 'opacity-0': imageInvisibility }"
+              :style="{
                 transform: `scale(${zoom})`,
                 top: `${imageTop}px`,
                 left: `${imageLeft}px`,
-              }" v-if="selectedAttachment.type === 'image'" :src="selectedAttachment?.url" :key="selectedAttachment.id"
-              :alt="selectedAttachment.name" ref="image" @load="handleImageLoad" @mousedown="handleStartMovingImage" />
+              }"
+              v-if="selectedAttachment.type === 'image'"
+              :src="selectedAttachment?.url"
+              :key="selectedAttachment.id"
+              :alt="selectedAttachment.name"
+              ref="image"
+              @load="handleImageLoad"
+              @mousedown="handleStartMovingImage"
+            />
 
             <!--Video-->
-            <VideoPlayer class="transition-[transform,opacity] duration-200" :class="{ 'opacity-0': imageInvisibility }"
-              :id="'video-player-' + selectedAttachment.id" v-if="selectedAttachment.type === 'video'"
-              :url="selectedAttachment.url" :name="selectedAttachment.name"
-              :thumbnail="<string>selectedAttachment.thumbnail" :key="selectedAttachment.id"
-              @videoLoad="handleImageLoad" />
+            <VideoPlayer
+              class="transition-[transform,opacity] duration-200"
+              :class="{ 'opacity-0': imageInvisibility }"
+              :id="'video-player-' + selectedAttachment.id"
+              v-if="selectedAttachment.type === 'video'"
+              :url="selectedAttachment.url"
+              :name="selectedAttachment.name"
+              :thumbnail="<string>selectedAttachment.thumbnail"
+              :key="selectedAttachment.id"
+              @videoLoad="handleImageLoad"
+            />
 
             <!--right controls-->
-            <IconButton title="next" aria-label="next item" @click="handleMoveToNextItem"
+            <IconButton
+              title="next"
+              aria-label="next item"
+              @click="handleMoveToNextItem"
               :class="{ hidden: !isThereANext() }"
-              class="ic-btn-contained-glass absolute top-[50%] z-30 right-0 flex items-center justify-center p-4 ml-5 mr-5">
+              class="ic-btn-contained-glass absolute top-[50%] z-30 right-0 flex items-center justify-center p-4 ml-5 mr-5"
+            >
               <ChevronRightIcon class="w-6 h-6" />
             </IconButton>
           </div>

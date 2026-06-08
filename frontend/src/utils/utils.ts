@@ -1,11 +1,8 @@
-import useStore from "@src/store/store";
-import type {
-  ICall,
-  IContact,
-  IConversation,
-  IMessage,
-  IRecording,
-} from "@src/utils/types";
+import type { IConversation, IMessage, IRecording } from "@src/types/messaging";
+import type { ICall } from "@src/types/call";
+import type { IContact } from "@src/types/contact";
+
+import useStore from "@src/lib/store/store";
 import { useRoute } from "vue-router";
 
 /**
@@ -128,7 +125,7 @@ export const getActiveConversationId = () => {
  * @returns A number indicating the index of the conversation.
  */
 export const getConversationIndex = (
-  conversationId: number
+  conversationId: number,
 ): number | undefined => {
   let conversationIndex;
   const store = useStore();
@@ -173,7 +170,7 @@ export const getOtherMembers = (call: ICall) => {
 export const getCallName = (
   call: ICall,
   full?: boolean,
-  maxLength: number = 20
+  maxLength: number = 20,
 ) => {
   let members = getOtherMembers(call);
   let callName: string = "";
@@ -195,7 +192,7 @@ export const getCallName = (
 
 export const getMessageById = (
   conversation: IConversation,
-  messageId?: number
+  messageId?: number,
 ) => {
   if (messageId) {
     return conversation.messages.find((message) => message.id === messageId);

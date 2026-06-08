@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AccessView from '@src/views/AccessView/AccessView.vue'
-import HomeView from '@src/views/HomeView/HomeView.vue'
-import PasswordResetView from '@src/views/PasswordResetView/PasswordResetView.vue'
-import Chat from '@src/views/HomeView/Chat/Chat.vue'
+import AccessView from '@src/views/AccessView.vue'
+import HomeView from '@src/views/HomeView.vue'
+import PasswordResetView from '@src/views/PasswordResetView.vue'
+import Chat from '@src/components/chat/Chat.vue'
 
 const routes = [
   {
