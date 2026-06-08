@@ -10,7 +10,7 @@ import {
   PhoneArrowUpRightIcon,
   PhoneXMarkIcon,
 } from "@heroicons/vue/24/solid";
-import CallAvatar from "@src/components/shared/blocks/CallAvatar.vue";
+import CallAvatar from "@src/components/shared/main/CallAvatar.vue";
 
 const props = defineProps<{
   call: ICall;

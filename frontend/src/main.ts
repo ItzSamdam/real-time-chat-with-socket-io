@@ -1,5 +1,5 @@
 import router from '@src/router/index'
-import '@src/assets/style.css'
+import '@/src/style.css'
 import { createPinia } from 'pinia'
 import { createApp } from 'vue'
 import vClickOutside from 'click-outside-vue3'

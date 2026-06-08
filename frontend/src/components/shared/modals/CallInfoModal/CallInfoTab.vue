@@ -10,7 +10,7 @@ import {
   PhoneXMarkIcon,
   UserGroupIcon,
 } from "@heroicons/vue/24/outline";
-import IconAndText from "@src/components/shared/blocks/IconAndText.vue";
+import IconAndText from "@src/components/shared/main/IconAndText.vue";
 import Button from "@src/components/ui/inputs/Button.vue";
 
 const props = defineProps<{

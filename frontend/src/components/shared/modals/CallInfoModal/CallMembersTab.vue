@@ -4,7 +4,7 @@ import { ArrowUturnLeftIcon } from "@heroicons/vue/24/solid";
 import type { ICall } from "@src/utils/types";
 
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";
-import ContactItem from "@src/components/shared/blocks/ContactItem.vue";
+import ContactItem from "@src/components/shared/main/ContactItem.vue";
 import ScrollBox from "@src/components/ui/utils/ScrollBox.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 

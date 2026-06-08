@@ -8,7 +8,7 @@ import useStore from "@src/store/store";
 
 import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue";
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";
-import ContactItem from "@src/components/shared/blocks/ContactItem.vue";
+import ContactItem from "@src/components/shared/main/ContactItem.vue";
 import Button from "@src/components/ui/inputs/Button.vue";
 import Checkbox from "@src/components/ui/inputs/Checkbox.vue";
 import ScrollBox from "@src/components/ui/utils/ScrollBox.vue";

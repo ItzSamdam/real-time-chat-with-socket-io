@@ -9,7 +9,7 @@ import {
   SpeakerXMarkIcon,
   UserPlusIcon,
 } from "@heroicons/vue/24/solid";
-import CallAvatar from "@src/components/shared/blocks/CallAvatar.vue";
+import CallAvatar from "@src/components/shared/main/CallAvatar.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
 
 const props = defineProps<{

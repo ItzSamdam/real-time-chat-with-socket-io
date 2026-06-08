@@ -10,7 +10,7 @@ import Button from "@src/components/ui/inputs/Button.vue";
 import Checkbox from "@src/components/ui/inputs/Checkbox.vue";
 import SearchInput from "@src/components/ui/inputs/SearchInput.vue";
 import Modal from "@src/components/ui/utils/Modal.vue";
-import ContactItem from "@src/components/shared/blocks/ContactItem.vue";
+import ContactItem from "@src/components/shared/main/ContactItem.vue";
 import ScrollBox from "@src/components/ui/utils/ScrollBox.vue";
 import Circle2Lines from "@src/components/states/loading-states/Circle2Lines.vue";
 

@@ -16,7 +16,7 @@ import {
   UserIcon,
 } from "@heroicons/vue/24/outline";
 import { ArrowUturnLeftIcon } from "@heroicons/vue/24/solid";
-import IconAndText from "@src/components/shared/blocks/IconAndText.vue";
+import IconAndText from "@src/components/shared/main/IconAndText.vue";
 import ImageViewer from "@src/components/shared/modals/ConversationInfoModal/ConversationInfoTab/ImageViewer.vue";
 import Button from "@src/components/ui/inputs/Button.vue";
 import IconButton from "@src/components/ui/inputs/IconButton.vue";
